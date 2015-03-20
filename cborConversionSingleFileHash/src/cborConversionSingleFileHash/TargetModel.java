@@ -1,4 +1,4 @@
-package converToCBORWithHash;
+package cborConversionSingleFileHash;
 
 import java.util.HashMap; 
 
@@ -48,6 +48,34 @@ import java.util.HashMap;
 */
 
 public class TargetModel {
+	public long getTimestamp() {
+		return timestamp;
+	}
+
+	public void setTimestamp(long timestamp) {
+		this.timestamp = timestamp;
+	}
+
+	public HashMap<String, Object> getRequest() {
+		return request;
+	}
+
+	public void setRequest(HashMap<String, Object> request) {
+		this.request = request;
+	}
+
+	public HashMap<String, Object> getResponse() {
+		return response;
+	}
+
+	public void setResponse(HashMap<String, Object> response) {
+		this.response = response;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
 	public String url;
 	public long timestamp;
 	public HashMap<String, Object> request;

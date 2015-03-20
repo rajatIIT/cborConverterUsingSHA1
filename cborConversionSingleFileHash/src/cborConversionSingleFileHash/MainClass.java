@@ -1,4 +1,4 @@
-package converToCBORWithHash;
+package cborConversionSingleFileHash;
 
 import java.io.BufferedReader;
 import java.io.File;
